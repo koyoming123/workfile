@@ -1,0 +1,12 @@
+TCP_PORT=5000
+UART_DEVICE=/dev/serial0
+UART_BAUD=115200
+LOG_FILE=log.txt
+MAX_LOG_LINES=1000
+ALLOW_GUEST=1
+ALLOW_OPERATOR=1
+ALLOW_ADMIN=1
+ADMIN_PASSWORD=admin123
+UART_TIMEOUT_SEC=1
+# (選填) UART 帳號: 帳號:密碼:角色, 以逗號分隔
+USERS=alice:alice123:operator,bob:bob123:guest,root:root123:admin

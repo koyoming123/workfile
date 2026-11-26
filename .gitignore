@@ -1,0 +1,6 @@
+uart_calc/uart_calc
+uart_calc/build/
+log.txt
+log.txt.tmp
+*.o
+*.d
